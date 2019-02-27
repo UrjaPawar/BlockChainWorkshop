@@ -8,6 +8,8 @@ Preliminary Steps:
 
 -> npm install -g ganache-cli
 
+LINK : goo.gl/fMVC52
+
 Versions:
 
 Truffle v5.0.0 (core: 5.0.0)
