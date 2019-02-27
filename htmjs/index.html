@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My wallet</title>
+</head>
+<style>
+  input[type=text]:focus {
+    border: 3px solid #FF6F00;
+  }
+
+  h3 {
+    color: #E1F5FE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+  }
+  h2 {
+    color: #fff;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+  button {
+    background-color: #FFA000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  body {
+    background-color: black;
+    background-size: cover;
+    width: 70%;
+  }
+  .Owner {
+    color: #E1F5FE;
+  }
+  .initial {
+    color: #E1F5FE;
+  }
+</style>
+
+<body>
+  <h1>Wait a bit! We are fueling up!</h1><br>
+  <h3>Wanna contribute to give birth to exciting list of projects!? </h3><br><br>
+  <h3>Support us by your contributon! <t>
+  <form>
+      <input type="text" id="amount" name="amt" placeholder="Amount (in Wei)"> 
+      <button onClick="App.sendEther()" type="button">Send ether!</button></h3>
+  </form>
+  <br>
+  <br>
+  If you are one of my contributors, youcan check the algo
+  <br>
+  <button onClick="App.knowTheAlgo()" type="button"> Disclose ALgorithm </button>
+  <span id="isOpen"></span>
+  <br>
+  <br>
+  <h3>Contract Balance:</h3>
+  <span class="Owner" id="bal"></span>
+  <br>
+  <hr>
+  <h3>Events: </h3>
+  <div class="Owner">
+    <span id="events"></span>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
